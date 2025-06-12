@@ -371,10 +371,19 @@ main {
   gap: 4rem;
 }
 
+.projects__container .btn .btn-project{
+  width: fit-content;
+}
+
 .projects__card {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.projects__card:hover{
+  transform: scale(1.05);
 }
 
 .card__cover {
@@ -562,12 +571,9 @@ main {
   text-align: center;
 }
 
-.contact .btn {
-  width: auto;
-}
-
-.contact .email {
-  text-transform: lowercase;
+.contact .contact__text {
+  text-align: center;
+  color: 	#cfcfcf;
 }
 
 footer {
@@ -593,6 +599,26 @@ footer p {
     transform: translateY(-5px);
   }
 }
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.highlight-text {
+  background: linear-gradient(to right, #fd0133, #d17c47);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
 
 /* Responsividade */
 @media (min-width: 768px) {
