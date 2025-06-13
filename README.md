@@ -28,3 +28,13 @@ Bem-vindo ao meu portfólio, Este projeto foi criado para apresentar meus trabal
 **JavaScript**
 
 **Ícones do [Bootstrap Icons](https://icons.getbootstrap.com/) e SVGs personalizados**
+
+**FancyBox**
+
+### 📬 Contato
+
+-- Caso queira entrar em contato comigo:
+
+    Email: tauanmaykreal@gmail.com
+
+    LinkedIn: 
