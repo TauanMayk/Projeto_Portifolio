@@ -1,15 +1,14 @@
-const logosSVG = document.querySelectorAll(".technologies__logo");
 const icons = document.querySelectorAll('.tech-icon');
 const btnProjetos = document.getElementsByClassName('btn--primary');
 const revealElements = document.querySelectorAll('.reveal');
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-      });
+    e.preventDefault();
+    
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
   });
 });
 

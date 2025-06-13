@@ -1,0 +1,36 @@
+a:hover {
+  color: var(--primary-color);
+}
+
+.header__brand .brand__logo:hover{
+  transform: scale(1.4);
+}
+
+.menu__item:hover{
+  transform: scale(1.1);
+}
+
+.menu__link.active .menu__icon,
+.menu__link.active .menu__text,
+.menu__link:hover .menu__icon,
+.menu__link:hover .menu__text {
+  color: var(--primary-color);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  transition: ease-in-out 0.3s;
+}
+
+.technologies__logo:hover {
+  transform: scale(1.1);
+}
+
+.projects__card:hover{
+  transform: scale(1.05);
+}
+
+.carousel-track img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}

@@ -38,6 +38,10 @@ html[data-theme="light"] .technologies__logo {
   filter: invert(80%);
 }
 
+html[data-theme="light"] .menu.menu--social li span{
+  color: black;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -83,9 +87,7 @@ a .card__cover {
   width: 100%;
 }
 
-a:hover {
-  color: var(--primary-color);
-}
+
 
 i {
   color: var(--icon-color);
@@ -155,7 +157,10 @@ p {
 .header__brand .brand__logo {
   width: 3.25rem;
   height: 3.25rem;
+  transition: transform 0.4s ease-in-out;
 }
+
+
 
 #toggleTheme {
   font-size: 1.5rem;
@@ -173,7 +178,9 @@ p {
 
 .menu__item {
   width: 100%;
+  transition: all 0.3s ease-in-out;
 }
+
 
 .menu__link {
   display: flex;
@@ -195,12 +202,7 @@ p {
   padding: 0.5rem 1rem;
 }
 
-.menu__link.active .menu__icon,
-.menu__link.active .menu__text,
-.menu__link:hover .menu__icon,
-.menu__link:hover .menu__text {
-  color: var(--primary-color);
-}
+
 
 .menu__icon,
 .menu__text {
@@ -221,7 +223,7 @@ p {
 }
 
 .menu--principal {
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .menu--social {
@@ -244,10 +246,7 @@ p {
   margin-bottom: 20px;
 }
 
-.btn:hover {
-  transform: scale(1.05);
-  transition: ease-in-out 0.3s;
-}
+
 
 .btn span,
 .btn i {
@@ -320,9 +319,9 @@ main {
   justify-content: flex-start;
   align-items: center;
   gap: 1.25rem;
-  padding: 6.25rem 1rem 2rem;
+  padding: 6rem 2rem 2rem;
   background: var(--secondary-bg-color);
-  margin-top: -5.5rem;
+  margin-top: -10rem;
 }
 
 .technologies h2 {
@@ -330,12 +329,14 @@ main {
   text-transform: none;
   letter-spacing: normal;
   text-align: start;
+  padding-bottom: 50px;
 }
 
 .technologies__list {
   display: flex;
   flex-flow: row wrap;
   gap: 0.5rem;
+  width: 100%;
 }
 
 .technologies__item {
@@ -355,9 +356,7 @@ main {
   transition: all 0.3s ease-in-out;
 }
 
-.technologies__logo:hover {
-  transform: scale(1.1);
-}
+
 
 .projects {
   display: flex;
@@ -382,9 +381,7 @@ main {
   transition: all 0.3s ease-in-out;
 }
 
-.projects__card:hover{
-  transform: scale(1.05);
-}
+
 
 .card__cover {
   width: 100%;
@@ -619,9 +616,46 @@ footer p {
   font-weight: bold;
 }
 
+.tech-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 40px;
+  animation: scrollLeft 10s linear infinite;
+  width: 80%;
+}
+
+.carousel-track img {
+  height: 40px;
+  width: auto;
+  opacity: 0.85;
+  transition: transform 0.3s ease;
+}
+
+@keyframes scrollLeft {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.curriculo{
+  margin-bottom: 50px;
+}
 
 /* Responsividade */
 @media (min-width: 768px) {
+
   .header {
     position: fixed;
     border-bottom: 1px solid var(--primary-border-color);
@@ -733,9 +767,8 @@ footer p {
   }
 
   .technologies {
-    flex-direction: row;
     justify-content: space-between;
-    padding: 10rem 6rem 4rem;
+    padding: 7rem 6rem 4rem;
   }
 
   .technologies h2 {
