@@ -22,6 +22,9 @@ Bem-vindo ao meu portfólio, Este projeto foi criado para apresentar meus trabal
 ## 🛠 Tecnologias Utilizadas
 
 **HTML5**
+
 **CSS3**
+
 **JavaScript**
+
 **Ícones do [Bootstrap Icons](https://icons.getbootstrap.com/) e SVGs personalizados**
