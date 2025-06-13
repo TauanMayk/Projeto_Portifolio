@@ -33,8 +33,6 @@ Bem-vindo ao meu portfólio, Este projeto foi criado para apresentar meus trabal
 
 ### 📬 Contato
 
--- Caso queira entrar em contato comigo:
+° Caso queira entrar em contato comigo:
 
     Email: tauanmaykreal@gmail.com
-
-    LinkedIn: 
