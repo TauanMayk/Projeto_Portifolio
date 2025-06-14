@@ -6,8 +6,7 @@ Bem-vindo ao meu portfólio, Este projeto foi criado para apresentar meus trabal
 
 ![Screenshot_7](https://github.com/user-attachments/assets/4e0609e3-c5ae-452a-9f55-6f6356b5224c)
 
-![2025-06-13 20-36-52_1](https://github.com/user-attachments/assets/18e77948-5351-4abc-8a10-b4cd9a3e092c)
-
+https://github.com/user-attachments/assets/a820f5f1-3ea6-42ec-877c-104edca947eb
 
 ## 🚀 Funcionalidades
 
