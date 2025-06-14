@@ -2,10 +2,9 @@
 
 Bem-vindo ao meu portfólio, Este projeto foi criado para apresentar meus trabalhos, habilidades e tecnologias que eu uso no desenvolvimento de aplicações web.
 
-## 📸 Preview
+## 📸 Preview Do Projeto : 
 
 ![Screenshot_7](https://github.com/user-attachments/assets/4e0609e3-c5ae-452a-9f55-6f6356b5224c)
-
 
 ## 🚀 Funcionalidades
 
@@ -30,9 +29,3 @@ Bem-vindo ao meu portfólio, Este projeto foi criado para apresentar meus trabal
 **Ícones do [Bootstrap Icons](https://icons.getbootstrap.com/) e SVGs personalizados**
 
 **FancyBox**
-
-### 📬 Contato
-
-° Caso queira entrar em contato comigo:
-
-    Email: tauanmaykreal@gmail.com
